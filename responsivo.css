@@ -1,0 +1,24 @@
+@media (max-width:809px){
+
+    .texto-logo{
+        width: 100%;
+        display: flex;  
+    }
+
+    .container-box-lista{
+        border-radius: 29px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    fieldset{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .TT{
+        width: 80%;
+    }
+
+}  
+    

@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image:linear-gradient(white);
+    width: 100%;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    margin-left: 10px;
+    opacity: 100;
+}
+.texto-logo{
+    margin-left: 25px;
+    color: whitesmoke;
+    font-family: open sans;
+}
+.container-box{
+    background-color: #4C2B8F;
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+}
+
+.container-box-lista{
+    display: flex;
+    list-style-type: none;
+}
+.box-logo{
+    display: flex;
+    align-items: center;
+    align-items: left;
+    padding: 10px;
+}   
+.lista-li{
+    padding: 30px 30px;
+    font-family: Open Sans;
+}
+.lista-li :hover{
+    color:rgb(231, 201, 144);
+}
+
+
+.vantagens{
+    display: flex;
+    border: 2px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+section{
+    display: flex;
+    margin: 0;
+}
+
+
+.box-roxo{
+    width: 100%;
+    height: 600px;
+    background-color: #4C2B8F;
+}
+.h1-1{
+    text-align: center;
+    margin: 0;
+}
+
+.p-roxo{
+    padding: 20px;
+}
+.roxo{
+    text-align: center;
+}
+.card{
+    width: 100%!important;
+    display: flex;
+    text-align: center;
+}
+.box-center{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-self: center;
+    padding: 5px;
+    
+}
+
+
+@media (max-width: 730px){
+ 
+    .container-box-lista{
+        flex-direction: column;
+        width: 100%;
+    } 
+
+        .card{
+            width: 100%!important;
+            display: flex;
+            text-align: center;
+            padding: 5px;
+            flex-direction: column;
+        }
+
+        .box-roxo{
+            width: 100%;
+            height: 600px;
+            background-color: #4C2B8F;
+            flex-direction: column;
+        }
+
+        .box-center{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            align-self: center;
+            padding: 5px;
+            flex-direction: column;
+        }
+
+        section{
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+        }
+    }
+
+    
+

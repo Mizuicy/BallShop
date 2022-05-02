@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px){
+    .BOX-3{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 30px 10px;
+    padding: 20px 20px 30px 20px;
+    }
+    .carousel {
+        display: none;
+    }
+}
+@media (max-width:809px){
+
+
+
+
+    .texto-logo{
+        width: 100%;
+        display: flex;  
+    }
+
+    .container-box-lista{
+        border-radius: 29px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    fieldset{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .TT{
+        width: 80%;
+    }
+
+}
+
